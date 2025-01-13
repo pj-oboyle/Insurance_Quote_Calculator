@@ -6,6 +6,26 @@ The system is designed to ensure a user-friendly experience while adhering to co
 
 ---
 
+## Key Functionalities
+
+### **Input Validation**
+- Ensures user inputs are valid integers.
+- Re-prompts for input in case of invalid or negative values.
+
+### **Quote Calculation**
+- Applies surcharges based on:
+  - Age (additional fee for users aged 17–24).
+  - Number of accidents (up to 5).
+- Denies insurance for invalid scenarios:
+  - Age below 17.
+  - More than 5 accidents.
+
+### **Unit Testing**
+- Validates all methods in the project using edge cases and parameterized inputs.
+- Ensures robustness and reliability of the quote calculation logic.
+
+---
+
 ## Features
 
 ### **1. Refactored Codebase**
@@ -53,6 +73,11 @@ The system is designed to ensure a user-friendly experience while adhering to co
 
 ---
 
+### Original Code
+The repository also contains a file named `OriginalCode.java` in the `original_code/` folder. This file represents the original codebase before the refactoring process. It is included to provide context for the changes made and highlight the improvements implemented in the refactored version.
+
+---
+
 ## Technologies Used
 
 - **Java**: Core programming language.
@@ -97,46 +122,6 @@ The system is designed to ensure a user-friendly experience while adhering to co
    java ie.gmit.dip.TestSuite
    ```
 2. Alternatively, run individual test classes (e.g., `AgeClassTests`, `AccidentClassTests`) for targeted testing.
-
----
-
-## Key Functionalities
-
-### **Input Validation**
-- Ensures user inputs are valid integers.
-- Re-prompts for input in case of invalid or negative values.
-
-### **Quote Calculation**
-- Applies surcharges based on:
-  - Age (additional fee for users aged 17–24).
-  - Number of accidents (up to 5).
-- Denies insurance for invalid scenarios:
-  - Age below 17.
-  - More than 5 accidents.
-
-### **Unit Testing**
-- Validates all methods in the project using edge cases and parameterized inputs.
-- Ensures robustness and reliability of the quote calculation logic.
-
----
-
-## Example Console Output
-
-### **Valid Input Example**
-```plaintext
-Enter your age: 25
-How many previous accidents did you have? 2
-
-No additional surcharge.
-Additional surcharge for accident: 125 
-Total amount to pay: 625
-```
-
-### **Invalid Input Example**
-```plaintext
-Enter your age: 16
-User Underage. No insurance.
-```
 
 ---
 
