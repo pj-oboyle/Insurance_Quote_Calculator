@@ -101,7 +101,7 @@ The repository also contains a file named `OriginalCode.java` in the `original_c
 4. Compile and run the `Runner` class to execute the program:
    ```bash
    javac Runner.java
-   java ie.gmit.dip.Runner
+   java src.java.Runner
    ```
 
 ---
@@ -119,7 +119,7 @@ The repository also contains a file named `OriginalCode.java` in the `original_c
 1. Execute the `TestSuite` class to run all tests:
    ```bash
    javac TestSuite.java
-   java ie.gmit.dip.TestSuite
+   java src.test.TestSuite
    ```
 2. Alternatively, run individual test classes (e.g., `AgeClassTests`, `AccidentClassTests`) for targeted testing.
 
