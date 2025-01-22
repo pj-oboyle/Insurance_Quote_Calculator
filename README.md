@@ -143,7 +143,7 @@ The repository also contains a file named `OriginalCode.java` in the `original_c
 ---
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ---
 
